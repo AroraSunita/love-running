@@ -177,7 +177,7 @@ main {
 
 /*Times section */
 #times {
-    background: url("../images/dublin-city.webp") no-repeat center center/cover;
+    background: url("../images/dublin-city.webp") no-repeat center/cover;
     /*Handles responsive without the need for a media query */
     display: flex;
     flex-wrap: wrap;
@@ -289,7 +289,7 @@ width: 75%;
     }
 }
 
-/* Media queary: wider screens (1200 and up) */
+/* Media queary: wider screens (1200) */
 @media screen and (min-width: 1200px) {
   /*Reasons section */
   #benefits {

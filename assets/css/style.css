@@ -226,6 +226,16 @@ border: 2px solid white;
     color: #3a3a3a;
 
 }
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+}
+    
+
 
 /* Media queary: tablets and lager (768 and up) */
 @media screen and (min-width: 768px) {
@@ -250,7 +260,7 @@ border: 2px solid white;
     .nav-toggle-label {
         display: none;
     }
-}
+
 
 #logo {
     font-size: 280%;
@@ -289,12 +299,24 @@ width: 75%;
     align-self: flex-end;
 }
 
-/* Media queary: tablets and lager (992 and up) */
+/*Gallery */
+#photos {
+    column-count: 3;
+}
+
+}
+
+/* Large devices (laptops and desktops, 992 and up */
 @media screen and (min-width: 992px) {
 
     /*Header */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /*Gallery */
+    #photos {
+        column-count: 4;
     }
 }
 

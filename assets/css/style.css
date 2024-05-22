@@ -3,20 +3,20 @@
 
 
 /*Asterisk wildcard selector to override default styles added by the browser*/
-*{
-   padding: 0;
-   margin: 0; 
-   box-sizing: border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /*General styles */
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-/*Generic project styles*/
-color: #3a3a3a;
-font-family: 'lato', sans-serif;
+    /*Generic project styles*/
+    color: #3a3a3a;
+    font-family: 'lato', sans-serif;
 }
 
 /*Header */
@@ -37,7 +37,7 @@ header a {
     color: inherit;
 }
 
-h1{
+h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -50,7 +50,7 @@ h1{
     list-style: none;
 }
 
-#menu >li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -72,22 +72,22 @@ nav {
 
 
 /*Nav toggle */
-#nav-toggle:checked~nav{
+#nav-toggle:checked~nav {
     display: block;
 }
 
 #nav-toggle {
-display: none;
+    display: none;
 
 }
 
-.nav-toggle-label{
+.nav-toggle-label {
     font-size: 2rem;
 }
 
 
 /*Main content */
-main{
+main {
     background-color: lightblue;
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
@@ -104,14 +104,15 @@ main{
 }
 
 #social-networks i {
-font-size: 160%;
-padding: 5%;
-color: #3a3a3a;
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 
 }
 
 /* Media queary: tablets and lager (768 and up) */
 @media screen and (min-width: 768px) {
+
     /*Header */
     nav {
         display: block;
@@ -125,11 +126,11 @@ color: #3a3a3a;
         display: flex;
     }
 
-    #menu >li {
+    #menu>li {
         padding-left: 1rem;
     }
-    
-    .nav-toggle-label{
+
+    .nav-toggle-label {
         display: none;
     }
 }
@@ -142,16 +143,16 @@ color: #3a3a3a;
 
 /*Main Content */
 main {
-/*Push main content down to accommodate lager header */
-margin-top: 79px;
+    /*Push main content down to accommodate lager header */
+    margin-top: 79px;
 
 }
 
 /* Media queary: tablets and lager (992 and up) */
 @media screen and (min-width: 992px) {
-    /*Header */
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-}
 
+    /*Header */
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
